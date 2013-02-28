@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Io
+Bundle-SymbolicName: sr.entityset.io
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: sr.entityset.io;uses:="sr.lentils.model,org.w3c.dom",
+ sr.entityset.io.converters
+Require-Bundle: sr.entityset.core;bundle-version="1.0.0",
+ org.junit;bundle-version="4.10.0";resolution:=optional
+Bundle-ClassPath: .,
+ lib/javacsv.jar,
+ lib/joda-time-2.1.jar
