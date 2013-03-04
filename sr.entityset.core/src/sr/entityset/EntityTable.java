@@ -133,10 +133,12 @@ public class EntityTable
 	 * May result in undefined behavior.
 	 * @param values
 	 */
-	public void addFastRow(Object... values)
+	public EntityRow addFastRow(Object... values)
 	{
 		EntityRow row = new EntityRow(this, values, RowState.Added);
 		this.visibleRows.add(row);
+		
+		return row;
 	}
 	
 	public void endAddingFastRow() {
