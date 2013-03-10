@@ -4,8 +4,8 @@ Bundle-Name: Core
 Bundle-SymbolicName: sr.entityset.core
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .,
- lib/glazedlists-1.8.0_java15.jar,
- lib/DdlUtils-1.0.jar
+ lib/DdlUtils-1.0.jar,
+ lib/glazedlists_java15-1.9.0.jar
 Import-Package: com.google.common.base,
  com.google.common.collect,
  org.apache.commons.lang
@@ -17,7 +17,6 @@ Export-Package: ca.odell.glazedlists,
  ca.odell.glazedlists.impl,
  ca.odell.glazedlists.impl.adt,
  ca.odell.glazedlists.impl.adt.barcode2,
- ca.odell.glazedlists.impl.adt.gnutrove,
  ca.odell.glazedlists.impl.beans,
  ca.odell.glazedlists.impl.ctp,
  ca.odell.glazedlists.impl.event,

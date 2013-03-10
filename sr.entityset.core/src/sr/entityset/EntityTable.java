@@ -174,11 +174,11 @@ public class EntityTable
 	public ObservableElementList<EntityRow> rows() {
 		return this.visibleRows;
 	}
-
+	
 	public String getName() {
 		return name;
 	}
-
+	
 	public void acceptChanges() 
 	{
 		for(EntityRow row : this.visibleRows)

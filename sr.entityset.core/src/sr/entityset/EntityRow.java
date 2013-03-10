@@ -65,7 +65,7 @@ public class EntityRow extends AbstractModelObject
 		EntityColumn column = this.parentTable.getColumns().get(columnNumber);
 		this.setValue(column, value);
 	}
-
+	
 	public void setValue(EntityColumn column, final Object value) 
 			throws WrongTypeException, RemovedRowAccessException, 
 			InvalidNullValueException, PrimaryKeyConstraintException
